@@ -1,0 +1,244 @@
+@font-face {
+  font-family: Roboto;
+  font-style: medium;
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2");
+}
+@font-face {
+  font-family: Rubik-regular;
+  font-style: regular;
+  src: url("/fonts/Rubik-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: Rubik-bold;
+  font-style: bold;
+  src: url("/fonts/Rubik-Bold.ttf") format("ttf");
+}
+
+@media(min-width: 362px) and (max-width:960px)
+  body {
+    min-width: 368px;
+    max-width: 960px;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+  }
+  .logos  {
+    display: flex;
+    width : 50vw;
+    margin-left: 5vw;
+    margin-top: 5.8%;
+  }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    max-width: 27.2%;
+
+  }
+  .logo:nth-child(2n){
+    margin-left: 4vw;
+  }
+  .link_scroll {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 0.9em;
+    margin-left: auto;
+    margin-right: 5vw;
+    margin-top:5.8%;
+  }
+  main {
+    margin: 0px;
+  }
+  .image {
+    min-width: 100vw;
+    min-height: 50vw;
+    background-image: url("img/einhel_final.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .header {
+    font-family: Roboto;
+    font-style: Bold;
+    font-size: 1.1em;
+    margin-top: 5vw;
+
+    text-align: center;
+
+  }
+  .cards_block {
+    margin-top: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+    min-height: 10.4vw;
+
+  }
+  .card:nth-child(even) {
+    margin-left: 5.3vw;
+  }
+  .card {
+
+    min-width : 33vw;
+    min-heigth: 35vw;
+    margin-top: 5vw;
+  }
+  .label_block {
+    top: 24vw;
+    display: flex;
+    background-color: rgba(203, 201, 201, 0.5);
+    opacity: 50%;
+    border-radius: 20%;
+    min-height: 5.8vw;
+
+  }
+  span {
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    margin: auto;
+  }
+  .label {
+    display: flex;
+    font-family: Roboto;
+    font-size: 0.7em;
+    font-style: bold;
+    text-align: center;
+    text-decoration: none;
+    align-content: center;
+  }
+  .product {
+    margin: auto;
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+  .einhell_img {
+
+    max-width: 100vw;
+    min-height: 50vw;
+    margin-top: 5vw;
+
+  }
+  .image_bottom {
+    max-width:100vw;
+  }
+
+  .condition_card {
+
+    max-width: 100vw;
+    min-height: 70vw;
+    margin-top: 5vw;
+    margin:auto;
+  }
+  .first_card {
+    margin-top: 10vw;
+  }
+  .icon {
+    width: 26vw;
+    height: 26vw;
+    margin: auto;
+    border-radius: 13vw;
+    background-color: #E31E25;
+    display: flex;
+  }
+
+   svg {
+    margin: auto;
+    max-width: 12vw;
+    display: flex;
+  }
+  .text_label {
+    position: relative;
+    max-width:70vw;
+    text-align: left;
+    margin:auto;
+    margin-top: 3vw;
+    display: block;
+  }
+  .condition {
+    font-family: Roboto;
+    font-size: 1.2em;
+    font-style: normal;
+    text-align: left;
+    text-indent: 5vw;
+    margin-top: 3vw;
+  }
+  .number {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 3em;
+    font-style: bold;
+    bottom: 3vw;
+  }
+  .number_one {
+    bottom: 5vw;
+  }
+  .number_five {
+    bottom: 0;
+  }
+
+  .logos_footer {
+    flex-direction: row;
+  margin-left: 5vw;
+
+
+  }
+  .logo_foot {
+    width: 40vw;
+  }
+  .logo_foot:nth-child(2n) {
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+  }
+
+  .links {
+    max-width: 66vw;
+    display: flex;
+    flex-direction: row;
+    min-width: inherit;
+    line-height: 3em;
+    margin-top: 20vw;
+    margin-left: 20vw;
+    margin-bottom: 5vw;
+
+  }
+  .half_links {
+    display: flex;
+    flex-direction: column;
+
+
+  }
+  a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 1.1em;
+    font-style: bold;
+    text-align: left;
+    color: #ffffff;
+   }
+   .second {
+     margin-left: 10vw;
+   }
+   footer {
+     background-color: #E31E25;
+}
+
+@media (min-width:961px) and (max-width: 1220px) {
+.card {
+  max-width: 15vw;
+  margin-left: 3vw;
+}
+.cards_block {
+  min-height: 10.4vw;
+}
+.label_block {
+  max-width: 20vw;
+  margin:auto;
+}
+.product {
+  box-sizing: border-box;
+  margin: auto;
+}
+}
